@@ -1,0 +1,7 @@
+B1: Import file dump20220512 vào mysql
+B2: Sửa lại cấu hình trong application.properties trong folder (GP.MyThangShop\src\main\resources) sao cho username và password,
+ tên db trùng nhau với lại csdl vừa tạo ở trong mysql
+	3 item cần sửa: spring.datasource.url=jdbc:mysql://127.0.0.1:3306/newschema?useSSL=false&characterEncoding=UTF-8
+                        spring.datasource.username=root
+                        spring.datasource.password=Phobuon2012@
+B3: Run application.java
